@@ -1,0 +1,40 @@
+.topnav {
+    padding: 20px;
+}
+
+.topnav a {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: cadetblue;
+    text-decoration: none;
+    border-radius: 15%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.topnav a:hover {
+    background-color: deepskyblue;
+}
+
+.topnav a:active {
+    background-color: aqua;
+}
+body {
+    text-align: center;
+}
+li {
+    column-span: none;
+}
+img {
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    float: left;
+    margin-left: 200px;
+}
