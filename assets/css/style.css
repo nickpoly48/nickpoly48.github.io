@@ -1,40 +1,119 @@
-.topnav {
-    padding: 20px;
-}
-
-.topnav a {
-    font-size: 25px;
-    color: black;
-    font-weight: bold;
-    padding: 5px 10px 5px 10px;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    background-color: cadetblue;
-    text-decoration: none;
-    border-radius: 15%;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.topnav a:hover {
-    background-color: deepskyblue;
-}
-
-.topnav a:active {
-    background-color: aqua;
-}
 body {
+    background-image: url(../images/cool_blue_background.jpg)
+}
+
+#row1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: turquoise;
+    padding: 20px 20px 0px 20px;
+    margin-bottom: 10px;
+
+}
+
+a {
+    color: turquoise;
+}
+
+a:hover {
+    background-color: white;
+    color: turquoise;
+}
+
+a:active {
+    color: seagreen;
+}
+
+#name {
+    font-family: 'Permanent Marker', cursive;
+    color: turquoise;
+    font-size: 50px;
+    font-weight: 300;
+    margin: 15px 0px 15px 30px;
+}
+
+#portfolio_title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: turquoise;
     text-align: center;
 }
-li {
-    column-span: none;
-}
-img {
-    border-radius: 50%;
-    border-width: 5px;
-    border-color: black;
+
+hr {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 50px;
     border-style: solid;
-    float: left;
-    margin-left: 200px;
+    color: turquoise;
+    border-width: 5px;
+  }
+
+  #contact_bottom {
+      margin-top: 50px;
+  }
+
+  #portfolio_bottom {
+      margin-top: 50px;
+  }
+
+  #about, #email, #portfolio {
+      padding-top: 30px;
+  }
+
+#p {
+    color: turquoise;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-top: 75px;
 }
+
+#main img {
+    padding: 75px;
+    padding-top: 20px;
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+#portfolio_images_row1, #portfolio_images_row2 {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 75px;

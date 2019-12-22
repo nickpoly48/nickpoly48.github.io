@@ -23,14 +23,26 @@
 
       <hr>
 
-      <div id="main" class="row">
-          <div id="me" class="offset-1 col-3"><img src="../nickpoly48.github.io/assets/images/uniform.jpeg" alt=""></div>
-          <div id="p" class="col-7">I started out my technology career when I joined the Army National Guard. Being in the military environment gave me the discipline and structure to help form a solid foundation of my technological knowledge. My most recent experience in the tech industry has been with a fast-paced Network Cable and Install Team, that supports an estimated four thousand customers in many different countries. Being apart of this team has given me the opportunity to see the entire process of creating and maintaining an enterprise level network.</div>
+      <div class="container">
+        <form action="action_page.php">
+          
+          <h1 >Contact</h1>
 
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="name" placeholder="Your name..">
+      
+          <label for="lname">Email</label>
+          <input type="text" id="lname" name="email" placeholder="Your last name..">
+      
+          <label for="subject">Message</label>
+          <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
       </div>
 
-      <hr>
-    
+      <hr id="contact_bottom">
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
