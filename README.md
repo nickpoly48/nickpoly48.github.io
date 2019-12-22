@@ -1,6 +1,6 @@
 About me
 
-    Mr project has some insight as to how I got started in the tech industry. 
+    My project has some insight as to how I got started in the tech industry. 
 Along with a way to contact me and some examples of projects I have worked on.
 As you read through these pages you will get an idea of the different ways I can help bring applications to life.
 Incorporate many different aspects of the coding world to work together and create the beautifully designed 
